@@ -6,12 +6,12 @@ html, body {
 	margin: 0;
 	background: black;
 }
-h1, h2, p {
+h1, h2, p, a {
 	font-family: 'Cormorant Garamond', Comic Sans MS, serif;
 	color: white;
 }
 p {
-	font-size: 1.15rem;
+	font-size: 2rem;
 }
 main {
 	
@@ -31,7 +31,7 @@ nav {
 	
 }
 nav p {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	text-align: center;
 	margin: 0.5em auto;
 	text-decoration: underline;
@@ -39,7 +39,7 @@ nav p {
 }
 nav p.active {
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-decoration: none;
 	cursor: inherit;
 }
@@ -54,7 +54,7 @@ section.intro {
 	display: inherit;
 }
 section h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -62,7 +62,7 @@ section p {
 	text-align: center;
 }
 button {
-	padding: 1em 1.5em;
+	padding: 1em 2em;
 	background: black;
 	border: solid 3px white;
 }
@@ -74,11 +74,12 @@ button a {
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-size: 2rem;
 }
 button:hover a, button:focus a {
 	color: black;
 }
 footer {
-	margin: 2em auto;
+	margin: 2.5em auto;
 	text-align: center;
 }
