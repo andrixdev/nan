@@ -13,6 +13,9 @@ h1, h2, p, a {
 p {
 	font-size: 2rem;
 }
+img {
+	max-width: 100%;
+}
 main {
 	
 }
